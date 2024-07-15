@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:trickl:model:user:Subscription",
+  "additionalProperties" : false,
+  "properties" : {
+    "id" : {
+      "type" : "integer"
+    },
+    "name" : {
+      "type" : "string"
+    },
+    "description" : {
+      "type" : "string"
+    },
+    "expiry_date" : {
+      "type" : "any"
+    },
+    "max_subscribers" : {
+      "type" : "integer"
+    }
+  }
+}

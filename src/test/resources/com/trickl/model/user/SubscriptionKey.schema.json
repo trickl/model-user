@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:trickl:model:user:SubscriptionKey",
+  "additionalProperties" : false,
+  "properties" : {
+    "key" : {
+      "type" : "string"
+    }
+  }
+}

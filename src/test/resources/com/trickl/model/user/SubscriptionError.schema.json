@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:trickl:model:user:SubscriptionError",
+  "additionalProperties" : false,
+  "properties" : {
+    "subscription" : {
+      "type" : "object",
+      "$ref" : "urn:jsonschema:com:trickl:model:user:Subscription"
+    },
+    "message" : {
+      "type" : "string"
+    }
+  }
+}
